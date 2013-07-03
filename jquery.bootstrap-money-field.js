@@ -9,8 +9,8 @@
       obj = $(this);
       if(options.width)
         obj.css('width', options.width + 'px');
-      obj.wrap("<div class='input-prepend'>");
-      obj.before("<span class='add-on'>$</span>");
+      obj.wrap("<div class='input-append'>");
+      obj.before("<span class='add-on'>€</span>");
     });
   };
 })(jQuery);
